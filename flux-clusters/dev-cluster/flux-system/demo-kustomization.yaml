@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ../1-demo     # relative to repo root
+  path: ../../flux-clusters/dev-cluster/1-demo     # relative to repo root
   prune: true
   sourceRef:
     kind: GitRepository
