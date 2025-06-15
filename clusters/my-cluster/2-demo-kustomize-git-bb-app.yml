@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10s
-  path: ./manifests
+  path: ./clusters/my-cluster/manifests
   prune: true
   sourceRef:
     kind: GitRepository
